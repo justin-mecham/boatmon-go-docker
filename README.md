@@ -1,2 +1,5 @@
 # boatmon-go-docker
-Make sure logfile.txt exists in the base directory with the docker-compose.yml
+
+A web server, in a docker, that compiles when you start it.
+
+Stick your Go files in the code folder and have a good time!
