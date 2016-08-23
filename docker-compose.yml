@@ -10,4 +10,4 @@ services:
    volumes:
     - ./entrypoint.sh:/entrypoint.sh
     - ./code:/go/src/app
-    - ./logfile.txt:/logfile
+    - ./logfile.txt:/logfile #make sure this file exists or docker-compose will make a directory
