@@ -17,7 +17,6 @@ func logtime() {
     }
     defer logFile.Close()
     log.SetOutput(logFile)
-//    log.Println("First log message!")
     log.Println(formatedTime)
 }
  
