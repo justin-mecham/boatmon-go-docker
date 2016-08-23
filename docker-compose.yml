@@ -10,4 +10,4 @@ services:
    volumes:
     - ./entrypoint.sh:/entrypoint.sh
     - ./code:/go/src/app
-    - ./logfile:/logfile
+    - ./logfile.txt:/logfile
